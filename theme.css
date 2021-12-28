@@ -1030,15 +1030,18 @@ div[data-type='NodeMathBlock'] .minner .mfrac {
     /* 当前编辑窗口保持主背景色 */
     background-color: var(--b3-theme-background);
 }
+.layout-tab-bar {
+    background-color: #FAF9DE;
+}
 .layout-tab-bar .item {
     padding: 4px 4px 4px 14px;
     border: 0px;
     border-bottom: 2px solid transparent;
-    border-right: 2px solid #b7b8b97c;
-    border-left: 2px solid #b7b8b97c;
+    /* border-right: 2px solid #b7b8b97c;
+    border-left: 2px solid #b7b8b97c; */
     border-radius: 7px 7px 0px 0px;
     margin-right: 2px;
-    background-color: #FAF9DE;
+    background-color: #f8f6ea;
     /* transition: all 0.1s ease; */
 }
 /* 选中的标签页 */
@@ -1046,9 +1049,9 @@ div[data-type='NodeMathBlock'] .minner .mfrac {
     color: var(--b3-menu-highlight-focus-color);
     font-weight: 400;
     font-size: 15px;
-    background-color: #DFE0e1;
-    border-right: 1px solid #b7b8b9;
-    border-left: 1px solid #b7b8b9;
+    background-color: #FAF9DE;
+    /* border-right: 1px solid #b7b8b9;
+    border-left: 1px solid #b7b8b9; */
     border-bottom: 2px solid transparent;
     /* filter: drop-shadow(2px 2px 3px #999); */
 }
@@ -1057,8 +1060,8 @@ div[data-type='NodeMathBlock'] .minner .mfrac {
     color: var(--b3-menu-highlight-focus-color);
     border-color: #e9f1f5;
     font-weight: 600;
-    border-right: 1px solid #b7b8b9;
-    border-left: 1px solid #b7b8b9;
+    /* border-right: 1px solid #b7b8b9;
+    border-left: 1px solid #b7b8b9; */
     /* 更改多窗口标签页当前页面底框高亮颜色 */
     border-bottom: 2px solid transparent;
     /* border-bottom: 2px solid #34495e7c; */
